@@ -53,7 +53,7 @@ Screenshot showing a successful Telnet login as **root** using default/undocumen
 
 ---
 
-## 🧑‍💻 Discoverer
+##  Discoverer
 
 Discovered by: **Aoun Shah**  
 
