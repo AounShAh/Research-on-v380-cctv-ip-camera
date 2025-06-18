@@ -10,10 +10,12 @@ Telnet service is exposed by default on a IP camera. A user can remotely acesss 
 
 ## Nmap Output
 here is the nmap scan results
-![image.png](attachment:1fcf3175-76fd-41f6-9b2b-9bdf9c6492c2:image.png)
+
+![Nmap Scan Result](nmap_scan.png)
 
 ## Telnet Session
 here is screenshot of sucessful login as root on telnet 
+
 ![Telnet Access](screenshot_telnet_login.png)
 
 ## Notes
