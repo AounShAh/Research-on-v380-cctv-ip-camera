@@ -14,7 +14,7 @@ here is the nmap scan results
 
 ## Telnet Session
 here is screenshot of sucessful login as root on telnet 
-![image.png](attachment:1f43fe2e-987e-41e7-b711-f0a5e3a0bf91:image.png)
+![Telnet Access](screenshot_telnet_login.png)
 
 ## Notes
 - Vendor not reachable
