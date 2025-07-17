@@ -32,7 +32,12 @@ Scan showing the Telnet service (port 23) is open:
 
 ### 📸 Telnet Session
 
-Screenshot showing a successful Telnet login as **root** using default/undocumented credentials:
+An attacker can obtain root shell access to the device's filesystem by authenticating via Telnet using the following default and undocumented credentials:
+
+   * Username: `root`
+   * Password: `gzhongshi`
+
+Below is a screenshot demonstrating a successful Telnet login with root privileges:
 
 ![Telnet Access](screenshot_telnet_login.png)
 
@@ -76,7 +81,7 @@ Wi-Fi credentials are stored in `/tmp/wificonf/wpa_supplicant.conf` file on the 
 
 Here is the screenshot of the file
 
-[screenshot]
+![Plaintext Wifi Credentials](wifi-password-saved.png)
 
 
 ### Proof of Concept:
