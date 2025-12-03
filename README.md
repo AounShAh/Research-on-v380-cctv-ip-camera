@@ -63,6 +63,7 @@ Below is a screenshot demonstrating a successful Telnet login with root privileg
 ###  Discoverer
 
 Discovered by: **Aoun Shah**
+
 Collobration : **Muhammad Zubair**
 
 ---
