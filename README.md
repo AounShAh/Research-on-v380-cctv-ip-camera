@@ -103,7 +103,7 @@ This Section contains the reverse engineering of the main binary of the camera f
 
 While reverse engineering the camera’s main binary, I found an interesting piece of code related to RTSP streaming.
 
-![RTSP_worker_function](screenshot-placeholder)
+![RTSP worker function screenshot](RTSP_worker_function.png)
 
 This code was executed every time the camera booted. The function acts as the firmware’s **RTSP streaming worker thread**. Its job is to check whether RTSP is enabled in the INI configuration, initialize the RTSP/ONVIF services, pull audio and video frames from internal queues, package them, and push them to the RTSP server.
 
