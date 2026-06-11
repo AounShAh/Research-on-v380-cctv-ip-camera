@@ -130,7 +130,11 @@ Using the limited commands available on the device, I modified the configuration
 
 After rebooting the camera, the RTSP service started successfully.
 
-The next step was to check whether the camera would allow live streaming without requiring authentication. After testing the RTSP endpoint, I was able to access the live camera feed without providing any credentials.
+The next step was to check whether the camera would allow live streaming without requiring authentication. 
+
+![RTSP_video_stream screenshot](RTSP_video_stream.png)
+
+After testing the RTSP endpoint, I was able to access the live camera feed without providing any credentials.
 
 Normally, the camera requires authentication and authorization before allowing access to the video stream. However, enabling RTSP through this configuration bypassed those checks and exposed the live feed directly.
 
