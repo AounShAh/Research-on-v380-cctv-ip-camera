@@ -126,7 +126,7 @@ I had seen similar behavior in another camera where enabling RTSP exposed the li
 
 Using the limited commands available on the device, I modified the configuration file and changed the RTSP value to `1`.
 
-![RTSP_enable_modification](screenshot-placeholder)
+![RTSP_enable_modification screenshot](RTSP_enable_modification.png)
 
 After rebooting the camera, the RTSP service started successfully.
 
